@@ -1,4 +1,5 @@
 from app import app, db
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column,ForeignKey,Integer,Table
 from sqlalchemy.orm import declarative_base,relationship
 
