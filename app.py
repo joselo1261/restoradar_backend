@@ -1,3 +1,6 @@
+import os
+from flask import jsonify
+
 '''
 Flask => es un microframework de Python para crear aplicaciones web.
 jsonify => convierte datos a formato JSON para las respuestas HTTP.

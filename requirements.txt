@@ -20,7 +20,6 @@ packaging==24.1
 pycparser==2.22
 PyMySQL==1.1.1
 requests==2.32.3
-resend==2.1.0
 SQLAlchemy==2.0.31
 typing_extensions==4.12.2
 urllib3==2.2.2
