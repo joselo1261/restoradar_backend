@@ -37,6 +37,7 @@ ma=Marshmallow(app)   #crea el objeto ma de de la clase Marshmallow que se usar√
 
 
 from controladores.restaurant_controlador import *
+from controladores.pdf_controlador import *
 
 '''
 =======================================================================================================================================
