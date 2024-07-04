@@ -35,9 +35,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False #none Desactiva el seguimient
 db= SQLAlchemy(app)   #crea el objeto db de la clase SQLAlquemy que se usará para interactuar con la base de datos.
 ma=Marshmallow(app)   #crea el objeto ma de de la clase Marshmallow que se usará para la serialización y deserialización de datos.
 
-
 from controladores.restaurant_controlador import *
-from controladores.pdf_controlador import *
 
 '''
 =======================================================================================================================================
