@@ -25,8 +25,8 @@ CORS(app) #modulo cors es para que me permita acceder desde el frontend al backe
 =======================================================================================================================================
 '''
 # configuro la base de datos, con el nombre el usuario y la clave
-# app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:root@localhost/restoradar' Usando MySQL local
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://user1261:clave1261@user1261.mysql.pythonanywhere-services.com/user1261$default'
+# app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:root@localhost/restoradar' # Usando MySQL local
+app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://user1261:clave1261@user1261.mysql.pythonanywhere-services.com/user1261$default'  # Usando PythonAnyWhere
 # URI de la BBDD                          driver de la BD  user:clave@URLBBDD/nombreBBDD
 # Configura la URI de la base de datos, indicando el tipo de base de datos (MySQL),
 # el driver (pymysql), el usuario (root), la contraseña (root), la dirección del servidor (localhost)
